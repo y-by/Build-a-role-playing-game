@@ -20,7 +20,7 @@ main {
 @media(min-width:550px){
  main {
       flex-direction: row;
-      margin:6vh 5vw;
+      margin:6em 5em;
       justify-content: center;
       width:86vw;
       gap: 2rem;
@@ -32,7 +32,7 @@ main {
   margin-top: .5rem;
   width:94vw;
   max-width: 230px;
-  padding: 1vh 1vw;
+  padding: 1em 1em;
   font-size: 1.6rem;
   color: white;
   border-radius: 14px;
@@ -54,7 +54,7 @@ main {
 }
 
 .name {
-  margin: 1vh 0;
+  margin: .5em 0;
   width:100%;
   letter-spacing: 0.08em;
   font-size: 90%;
@@ -62,13 +62,13 @@ main {
 
 @media(min-width:550px){
   .name {
-  margin: 2vh 0;
+  margin: .5em 0;
   font-size: 100%;
 }
 }
 
 .avatar {
-  width: 15vh;
+  width: 4em;
   border: 2px solid #000721;
   max-width:100%;
   opacity: 0.8;
@@ -87,14 +87,14 @@ main {
   font-weight: normal;
   width:90%;
   text-align: left;
-  margin: 1vh 5%;
+  margin: .5em 2em;
   color:#ccc;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
 
 @media(min-width:550px){
   .health {
-      margin: 2vh 5%;
+      margin: .5em 5em;
   }
 }
 
@@ -105,7 +105,7 @@ main {
 
 .health-bar-outer {
   background: #171217;
-  height: 1vh;
+  height: 1em;
   width:90%;
   margin: 0 5%;
   border-radius: 2px;
@@ -137,28 +137,28 @@ main {
 
 @media(min-width:550px){
   .dice-container {
-      height: 30%;
+      /* height: 30%; */
       border-bottom-left-radius: 3px;
       border-bottom-right-radius: 3px;
   }
 }
 
 .dice, .placeholder-dice{
-  height:5.5vh;
-  width:5.5vh;
+  height: 1.5em;
+  width: 1.5em;
   background: #fff;   
   border-radius: 5px;
   border:1px solid #666;
   color:#000721;
   text-align: center;
-  line-height: 6vh;
+  line-height: 1.7em;
 }
 
 @media(min-width:550px){
 .dice-container .dice, .dice-container .placeholder-dice{
-  height:10vh;
-  width:10vh;
-  line-height: 10.5vh;
+  height:3em;
+  width:3em;
+  line-height: 3em;
 }
 }
 
@@ -172,8 +172,8 @@ button {
   background-color: #fcc02a;
   border: 2px solid #963404;
   outline: none;
-  padding-left:5vw;
-  padding-right:5vw;
+  padding-left: 5em;
+  padding-right: 5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -181,7 +181,7 @@ button {
   border-radius: 6px;
   cursor: pointer;
   color:#963404;
-  height:9vh;
+  height:3em;
   box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
 }
 
