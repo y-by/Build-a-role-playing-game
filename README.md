@@ -1,5 +1,6 @@
 # As part of my re-learning the basics of web development
 
+practice .map() .join('') 
 
 ## About Scrimba
 
