@@ -1,6 +1,12 @@
 # As part of my re-learning the basics of web development
 
-practice `.map()` and `.join('') `
+as the project begin I practice
+-  Object destructuring
+- The `.map()` method
+- The `.join('')` method
+- returning a function inside a function
+- Creating new arrays with the array constructor
+- The .fill() method
 
 ## About Scrimba
 
