@@ -1,6 +1,6 @@
 # As part of my re-learning the basics of web development
 
-practice .map() .join('') 
+practice `.map()` and `.join('') `
 
 ## About Scrimba
 
