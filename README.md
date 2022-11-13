@@ -7,6 +7,11 @@ as the project begin I practice
 - returning a function inside a function
 - Creating new arrays with the array constructor
 - The .fill() method
+- The Function() constructor
+- Method on the function() constructor
+- The Object.assign()
+
+
 
 ## About Scrimba
 
