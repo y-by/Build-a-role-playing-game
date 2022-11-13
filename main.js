@@ -45,7 +45,7 @@ function Character(data) {
           <div class="dice-container">    
               ${diceHtml}
           </div>
-      </div>`
+      </div>`;
 
   }
 
