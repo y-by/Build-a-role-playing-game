@@ -1,8 +1,6 @@
-function getDiceRollArray(diceCount) {
-  return new Array(diceCount).fill(0).map(function(){
-    return Math.floor(Math.random() * 6) + 1
-  })
-}
+import {characterData} from "/data.js"
+import {getDiceRollArray} from "./utils.js"
+
 
 function Character(data) {
   Object.assign(this, data)
@@ -30,7 +28,6 @@ function Character(data) {
 
 }
 
-
 function render(){
   document.getElementById(wizard.elementId).innerHTML = wizard.getCharacterHtml()
   document.getElementById(orc.elementId).innerHTML = orc.getCharacterHtml()
@@ -39,4 +36,3 @@ function render(){
 const wizard = new Character(characterData.hero)
 const orc = new Character(characterData.monster)
 render()
-
