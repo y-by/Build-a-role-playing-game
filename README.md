@@ -7,9 +7,11 @@ as the project begin I practice
 - returning a function inside a function
 - Creating new arrays with the array constructor
 - The .fill() method
-- The Function() constructor
+- The Constructor function()
+- The "this" keyword 
 - Method on the function() constructor
 - The Object.assign()
+- import and export
 
 
 
