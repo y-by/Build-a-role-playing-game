@@ -13,4 +13,4 @@
   }
 }
 
-export {characterData}
+export default characterData
