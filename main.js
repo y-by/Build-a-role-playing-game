@@ -3,7 +3,9 @@ import Character from "./Character.js"
 
 function attack() {
   wizard.getDiceHtml()
+  wizard.takeDamage()
   orc.getDiceHtml()
+  orc.takeDamage()
   render()
 }
 
