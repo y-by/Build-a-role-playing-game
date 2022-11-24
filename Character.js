@@ -13,7 +13,14 @@ function Character(data) {
   }
 
   this.takeDamage = function(attackScoreArray) {
-    console.log(`${this.name}: ${attackScoreArray}`)
+    const tottalAttackScore = attackScoreArray.reduce(function(total, num) {return total + num})
+    this.health -= tottalAttackScore
+    if(this.health <= 0) {
+      this.dead = true
+      this.health = 0
+    }
+    console.log(`${this.name} current health: ${this.health} 
+               hit: ${attackScoreArray} (total hit: ${tottalAttackScore}) is dead: ${this.dead}`)
   }
 
   this.getCharacterHtml = function () {

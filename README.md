@@ -12,6 +12,7 @@ as the project begin I practice
 - Method on the function() constructor
 - The Object.assign()
 - import and export
+- .reduce
 
 
 
