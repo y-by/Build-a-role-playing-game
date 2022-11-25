@@ -13,6 +13,7 @@ as the project begin I practice
 - The Object.assign()
 - import and export
 - .reduce
+- Conditional (ternary) operator
 
 
 
