@@ -1,7 +1,6 @@
 html, body {
   padding: 0;
-  margin: 0;    
-  background: rgb(51,43,55);
+  margin: 0;
   background: radial-gradient(circle, rgba(51,43,55,1) 0%, rgba(51,43,55,1) 100%);
   display: flex;
   flex-direction: column;
