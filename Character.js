@@ -21,6 +21,7 @@ function Character(data) {
       this.dead = true
       this.health = 0
     }
+    // *********************************DELETE soon***************************************
     // console.log("percentage: " + this.name + " " + getPercentage(this.health, this.maxHealth))
     // console.log(`${this.name} current health: ${this.health} 
     //            hit: ${attackScoreArray} (total hit: ${tottalAttackScore}) is dead: ${this.dead}`)
@@ -28,13 +29,13 @@ function Character(data) {
 
   this.getHealthBarHtml = function getHealthBarHtml() {
     const percent = getPercentage(this.health, this.maxHealth)
-    console.log("new: "+percent)
+    console.log(`life: ${this.name} ${percent}%`)
     return `
-    <div class="health-bar-outer">
-        <div class="health-bar-inner ${percent < 26 ? "danger" : ""} " 
-        style="width: ${percent}%;">
-        </div>
-    </div>`
+      <div class="health-bar-outer">
+          <div class="health-bar-inner ${percent < 26 ? "danger" : ""} " 
+          style="width: ${percent}%;">
+          </div>
+      </div>`
   }
 
   this.getCharacterHtml = function () {
