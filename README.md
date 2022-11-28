@@ -14,6 +14,7 @@ as the project begin I practice
 - import and export
 - .reduce
 - Conditional (ternary) operator
+- Practice debuging
 
 
 
