@@ -18,7 +18,10 @@ function attack() {
     endGame()
   } else if(monster.dead) {
     if(monstersArray.length > 0) {
-      monster = getNewMonster()
+      setTimeout(()=>{
+        monster = getNewMonster()
+        render()
+      }, 1500)
     } else {
       endGame()
     }
@@ -32,12 +35,14 @@ function endGame() {
     "The monster is Victorious"
     
   const endEmoji = wizard.health > 0 ? "🔮" : "☠️"
-  document.body.innerHTML = 
-    `<div class="end-game">
-        <h2>Game Over</h2>
-        <h3>${endMessage}</h3>
-        <p class="end-emoji">${endEmoji}</p>
-    </div>` 
+  setTimeout(()=>{
+    document.body.innerHTML = 
+      `<div class="end-game">
+          <h2>Game Over</h2>
+          <h3>${endMessage}</h3>
+          <p class="end-emoji">${endEmoji}</p>
+      </div>` 
+  }, 1500)
 
   // delete that before deploy
   const style = 'background-color: green; color: white; font-style: italic; border: 2px solid white; font-size: 2em;'
