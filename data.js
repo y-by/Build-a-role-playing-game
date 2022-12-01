@@ -6,7 +6,7 @@
     diceCount: 3,
     currentDiceScore: []
   },
-  monster: {
+  orc: {
     name: "Orc",
     avatar: "images/orc.png",
     health: 40,

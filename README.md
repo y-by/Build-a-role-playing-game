@@ -1,7 +1,7 @@
 # As part of my re-learning the basics of web development
 
 as the project begin I practice
--  Object destructuring
+- Object destructuring
 - The `.map()` method
 - The `.join('')` method
 - returning a function inside a function
