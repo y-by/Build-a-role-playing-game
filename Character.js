@@ -7,7 +7,7 @@ function Character(data) {
 
   this.maxHealth = this.health
 
-  this.getDiceHtml = function() {
+  this.setDiceHtml = function() {
     this.currentDiceScore = getDiceRollArray(this.diceCount)
     this.diceHtml = this.currentDiceScore.map((num) => 
         `<div class="dice">${num}</div>`).join("")
