@@ -4,18 +4,22 @@ as the project begin I practice
 - Object destructuring
 - The `.map()` method
 - The `.join('')` method
+- debuging
 - returning a function inside a function
 - Creating new arrays with the array constructor
+- debuging
 - The .fill() method
 - The Constructor function()
 - The "this" keyword 
 - Method on the function() constructor
+- debuging
 - The Object.assign()
 - import and export
-- .reduce
-- Conditional (ternary) operator
-- Practice debuging
-- Practice setTimeout
+- The .reduce() method
+- The Conditional (ternary) operator
+- debuging
+- The setTimeout() method
+- arrow functions
 
 
 ## About Scrimba
