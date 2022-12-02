@@ -15,7 +15,7 @@ as the project begin I practice
 - .reduce
 - Conditional (ternary) operator
 - Practice debuging
-
+- Practice setTimeout
 
 
 ## About Scrimba
