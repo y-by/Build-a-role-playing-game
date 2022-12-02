@@ -20,10 +20,6 @@ function Character(data) {
       this.dead = true
       this.health = 0
     }
-    // *********************************DELETE soon***************************************
-    // console.log("percentage: " + this.name + " " + getPercentage(this.health, this.maxHealth))
-    // console.log(`${this.name} current health: ${this.health} 
-    //            hit: ${attackScoreArray} (total hit: ${tottalAttackScore}) is dead: ${this.dead}`)
   }
 
   this.getHealthBarHtml = function getHealthBarHtml() {
